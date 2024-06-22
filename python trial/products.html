@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo" src="logo.jpg" alt="Company Logo" width="50%" height="50%">
+            
+            </div>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <br>
+            <a href="products.html">Products</a>
+        </ul>
+        
+    </nav>
+    <section id="product-add">
+        <h2>Add a New Product</h2>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <!-- उत्पाद नाम इनपुट केवल तभी दिखाई देगा जब पासवर्ड सही होगा -->
+        <input type="text" id="product-name" placeholder="Enter Product Name" style="display:none;">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="feedback"></p>
+    </section>
+    <script src="product.js"></script>
+</body>
+</html>

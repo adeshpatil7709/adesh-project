@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5b8b8;
+    background-image: linear-gradient(to left, #6a11cb,rgb(225, 76, 100), goldenrod); /* ग्रेडिएंट बैकग्राउंड */ /* Light grey background for a modern look */
+    color: #333; /* Dark grey text for better readability */
+}
+
+header {
+    background-color: #010305; /* Dark blue background */
+    color: #ecf0f1; /* Light grey text */
+    padding: 46px 70px; /* Increased padding for better spacing */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+header img {
+    width: 300px; /* Responsive image width */
+    height: 100px; /* Set height to fill container */
+    object-fit: contain; /* Maintain aspect ratio while filling container */
+    border:2px solid white;
+    border-radius: 10px; /* No border for a cleaner look */
+    border-bottom: 5px solid goldenrod;
+    border-top:1px solid #1abc9c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.logo {
+
+    height: 70px; /* Slightly larger logo */
+    vertical-align: middle;
+    margin-right: 20px;
+    
+}
+
+nav {
+    background-color: #34495e; /* Slightly lighter blue than the header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* Uniform margin for all links */
+}
+
+nav ul li a {
+    color: rgb(15, 13, 13);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color:goldenrod; /* Teal background on hover */
+}
+
+#products, #scrolling-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product img {
+    width: 80%; /* Responsive image width */
+    height: 250px; /* Maintain aspect ratio */
+    border-radius: 10px; /* No border for a cleaner look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.product {
+    border: none; /* No border for a modern look */
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px; /* Fixed width for uniformity */
+    height: auto; /* Height adjusts to content */
+    background-image: linear-gradient(to right, white,rgb(119, 42, 42)); /* ग्रेडिएंट बैकग्राउंड */ /* White background for product cards */
+    border-radius: 10px; /* Rounded corners for product cards */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1); /* Shadow for depth */
+    transition: transform 0.5s; /* Smooth transform on hover */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+#scrolling-products {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+#advertisement {
+    background-color: #3f8293;
+    background-image: linear-gradient(to right, white, rgb(132, 60, 60)); /* ग्रेडिएंट बैकग्राउंड */ /* Light grey background */
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%; /* Responsive width */
+    border: none; /* No border for a cleaner look */
+    transition: transform 0.1s; 
+    border-radius: 10px; /* Rounded corners for product cards */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+.advertisement video{
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #010408; /* Matching footer with header */
+    color: goldenrod;
+    text-align: center;
+    padding: 20px 0;
+    position: end; /* Footer always at the bottom */
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="text"], button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    border:5px solid rgb(59, 67, 78)
+}
+
+button {
+    background-color: #3498db; /* Blue background for buttons */
+    color: white; /* White text for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border:2px solid white;
+    border-radius:20px ;
+}
+
+button:hover {
+    background-color: #0f1494; /* Darker blue on hover */
+}
+
+#search-results div {
+    background-color: #bdc3c7; /* Light grey background for results */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,77 @@
+/* Basic style reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cba8a8;
+    color: #333;
+}
+header img{
+    border: 2px solid white;
+    border-radius: 10px;
+    border-top: 1px solid #378e9c;
+    border-bottom: 5px solid goldenrod;
+}
+
+/* Header styling */
+header {
+    background-color: #0f0904;
+    color: rgb(247, 245, 245);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: goldenrod;
+    
+    padding: 10px 0;
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation items styling */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Navigation links styling */
+nav ul li a {
+    color: rgb(11, 1, 1);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* About us section styling */
+#about-us {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: goldenrod;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

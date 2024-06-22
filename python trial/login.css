@@ -1,0 +1,63 @@
+/* बेसिक रीसेट */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* फॉन्ट बदला गया */
+    background-color: #e2e2e2; /* हल्का बैकग्राउंड कलर */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #6a11cb, goldenrod); /* ग्रेडिएंट बैकग्राउंड */
+}
+
+#login-container {
+    width: 340px; /* चौड़ाई बढ़ाई गई */
+    padding: 25px; /* पैडिंग बढ़ाई गई */
+    background: #ffffff; /* स्पष्ट व्हाइट बैकग्राउंड */
+    border-radius: 10px; /* बॉर्डर रेडियस बढ़ाया गया */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* शैडो इफेक्ट बढ़ाया गया */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* फॉन्ट साइज बढ़ाया गया */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px; /* पैडिंग बढ़ाई गई */
+    margin-bottom: 15px; /* मार्जिन बढ़ाया गया */
+    border: 2px solid #ccc; /* बॉर्डर स्टाइल बदला गया */
+    border-radius: 6px; /* बॉर्डर रेडियस बढ़ाया गया */
+    font-size: 16px; /* फॉन्ट साइज बढ़ाया गया */
+}
+
+button {
+    padding: 12px; /* पैडिंग बढ़ाई गई */
+    background-color:goldenrod;
+    color: white;
+    border: none;
+    border-radius: 6px; /* बॉर्डर रेडियस बढ़ाया गया */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* फॉन्ट साइज बढ़ाया गया */
+}
+
+button:hover {
+    background-color: #c2cb16;
+}
+
+#existing-user, #new-user {
+    margin-bottom: 20px;
+}

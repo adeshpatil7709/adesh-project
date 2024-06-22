@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif; /* फ़ॉन्ट स्टाइल निर्धारित करता है */
+    background-color: #8d6c6c; /* पृष्ठभूमि का रंग */
+    color: #333; /* मुख्य टेक्स्ट का रंग */
+}
+header img{
+    border: 2px solid white;
+    border-radius: 10px;
+    border-top: 1px solid #378e9c;
+    border-bottom: 5px solid goldenrod;
+}
+
+
+header, footer {
+    background-color: #01050a; /* हेडर और फुटर का पृष्ठभूमि रंग */
+    color: white; /* हेडर और फुटर का टेक्स्ट रंग */
+    text-align: center; /* टेक्स्ट को केंद्र में रखता है */
+    padding: 20px; /* पैडिंग जोड़ता है */
+}
+
+nav {
+    background-color: goldenrod; /* नेविगेशन बार का पृष्ठभूमि रंग */
+    padding: 10px 0; /* ऊपर और नीचे पैडिंग */
+}
+
+nav ul {
+    list-style-type: none; /* लिस्ट स्टाइल हटाता है */
+    padding: 0; /* पैडिंग हटाता है */
+    margin: 0; /* मार्जिन हटाता है */
+    display: flex; /* फ्लेक्सबॉक्स लेआउट का उपयोग करता है */
+    justify-content: center; /* आइटम्स को केंद्र में रखता है */
+}
+
+nav ul li {
+    margin: 0 15px; /* आइटम्स के बीच मार्जिन जोड़ता है */
+}
+
+nav ul li a {
+    color: rgb(16, 2, 2); /* लिंक का रंग */
+    text-decoration: none; /* अंडरलाइन हटाता है */
+    font-size: 16px; /* फ़ॉन्ट का आकार */
+}
+
+#contact-info {
+    background-color: rgb(225, 229, 237); /* पृष्ठभूमि का रंग */
+    color:rgb(73, 48, 73);
+    margin: 20px auto; /* ऑटो मार्जिन द्वारा केंद्रित */
+    padding: 20px; /* पैडिंग जोड़ता है */
+    width: 80%; /* चौड़ाई */
+    max-width: 800px; /* अधिकतम चौड़ाई */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* बॉक्स शैडो जोड़ता है */
+    border-radius: 8px; /* कोनों को गोल करता है */
+}
+
+footer {
+    background-color: #070000; /* फुटर का पृष्ठभूमि रंग */
+    color: goldenrod; /* फुटर का टेक्स्ट रंग */
+    text-align: center; /* टेक्स्ट को केंद्र में रखता है */
+    padding: 10px 0; /* ऊपर और नीचे पैडिंग */
+    position: end; /* फुटर को नीचे फिक्स करता है */
+    bottom: 0; /* नीचे की ओर */
+    width: 100%; /* पूरी चौड़ाई */
+}

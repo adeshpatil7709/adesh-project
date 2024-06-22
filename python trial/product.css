@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* अधिक स्टाइलिश फॉन्ट */
+    background-color: #795c44; 
+    background-image: linear-gradient(to right, #0b07fc, goldenrod); /* ग्रेडिएंट बैकग्राउंड *//* हल्का और सुखदायक बैकग्राउंड कलर */
+    color: #d6c7c7;
+    line-height: 1.6; /* बेहतर पठनीयता के लिए लाइन हाइट बढ़ाई गई */
+}
+
+header img{
+    border: 2px solid white;
+    border-radius: 10px;
+    border-top: 1px solid #378e9c;
+    border-bottom: 5px solid goldenrod;
+}
+header, nav, section {
+    padding: 40px;
+    text-align: center;
+    background-color: #080704; /* प्रत्येक सेक्शन के लिए सफेद पृष्ठभूमि */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* बॉक्स शैडो जोड़ा गया */
+    border-radius: 8px; /* किनारों को गोल किया गया */
+    margin-bottom: 20px; /* अंतराल जोड़ा गया */
+    border: 2px solid #c8717a;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+input[type="text"], input[type="password"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+    max-width: 300px;
+    border: 2px solid #ccc; /* बॉर्डर स्टाइल बदला गया */
+    border-radius: 4px; /* इनपुट फील्ड्स के किनारे गोल किए गए */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #5c67f2; /* बटन का रंग बदला गया */
+    color: white; /* बटन के टेक्स्ट का रंग सफेद किया गया */
+    border: none; /* बटन का बॉर्डर हटाया गया */
+    border-radius: 4px; /* बटन के किनारे गोल किए गए */
+    cursor: pointer; /* कर्सर पॉइंटर जोड़ा गया */
+    transition: background-color 0.3s; /* होवर पर बटन का रंग बदलने के लिए ट्रांजिशन जोड़ा गया */
+}
+
+button:hover {
+    background-color: #434aee; /* होवर पर बटन का रंग गहरा किया गया */
+}
